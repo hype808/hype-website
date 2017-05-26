@@ -1,0 +1,224 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #2A2C2B;
+}
+
+#navbar ul {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: Josefin Sans;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #1E1E20;
+}
+
+#navbar ul li {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    color: #D9CB9E;
+    background-color: #1E1E20;
+    cursor: pointer;
+}
+
+#navbar ul li:hover {
+    color: #D9CB9E;
+    background-color: #374140;
+    outline: solid 10px #374140;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #D9CB9E;
+}
+
+#navbar ul li ul {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    width: 200px;
+    font-size: 1.75rem;
+}
+
+#navbar ul li:hover ul {
+    display: block;
+}
+
+#navbar ul li ul li {
+    display: block;
+    text-align: left;
+}
+
+#calendar {
+    display: block;
+    text-align: center;
+}
+
+.youtube-video {
+    display: block;
+    text-align: center;
+}
+
+.site-title {
+    text-align: center;
+    color: #DC3522;
+    font-size: 5rem;
+}
+
+.header {
+    text-align: center;
+    color: #DC3522;
+}
+
+.sub-header {
+    text-align: center;
+    text-decoration: underline;
+    color: #DC3522;
+}
+
+.large {
+    font-size: 2.5rem;
+}
+
+.content {
+    max-width: 1250px;
+    min-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-float {
+    float: right;
+    margin: 0px 0px 20px 20px;
+}
+
+.left-float {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.bordered-image {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #1E1E20;
+    margin: 20px 0px;
+}
+
+.donate-btn {
+    color: #D9CB9E;
+    display: inline-block;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 3rem;
+    background: #2A2C2B;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 25px;
+    border: solid #1E1E20 10px;
+    text-decoration: none;
+}
+
+.donate-btn:hover {
+    background: #1E1E20;
+    text-decoration: none;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+h1 {
+    color: #D9CB9E;
+    font-family: Josefin Sans;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #D9CB9E;
+    font-family: Josefin Sans;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #D9CB9E;
+    font-family: Merriweather;
+    font-weight: normal;
+    font-size: 1.75rem;
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol {
+    color: #D9CB9E;
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+ul {
+    color: #D9CB9E;
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+li span {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: underline;
+    color: #D9CB9E;
+}
+
+a:hover {
+    color: #DC3522;
+}
+
+.meter {
+    height: 20px;
+    position: relative;
+    background: #1E1E20;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #DC3522;
+    position: relative;
+    overflow: hidden;
+}
